@@ -1,0 +1,17 @@
+@mixin respond-to($size) {
+    @if $size == large {
+        @media only screen and (max-width: 1262px) { @content; }
+    }
+    @else if $size == medium {
+        @media only screen and (max-width: 1105px) { @content; }
+    }
+    @else if $size == small {
+        @media only screen and (max-width: 950px) { @content; }
+    }
+    @else if $size == very-small {
+        @media only screen and (max-width: 605px) { @content; }
+    }
+    @else if $size == vv-small {
+        @media only screen and (max-width: 395px) { @content; }
+    }
+}

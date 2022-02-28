@@ -1,0 +1,20 @@
+.container {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 90%;
+    min-height: 6rem;
+    max-width: 1360px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2rem 0;
+}
+
+.section {
+    width: 100%;
+    min-height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
